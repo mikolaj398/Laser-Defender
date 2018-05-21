@@ -3799,6 +3799,30 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 1d17c8accddfc43d593706f3365be8ab, type: 2}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 1d17c8accddfc43d593706f3365be8ab, type: 2}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 1d17c8accddfc43d593706f3365be8ab, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1d17c8accddfc43d593706f3365be8ab, type: 2}
+      propertyPath: startMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 21d04d09443a0bf448833422eb20e0e7, type: 3}
+    - target: {fileID: 11400000, guid: 1d17c8accddfc43d593706f3365be8ab, type: 2}
+      propertyPath: gameMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: bdf3948839579394bac041110d8f02ec, type: 3}
+    - target: {fileID: 11400000, guid: 1d17c8accddfc43d593706f3365be8ab, type: 2}
+      propertyPath: endMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: ae50e32cabe63944bbfa16a0277f5a44, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d17c8accddfc43d593706f3365be8ab, type: 2}
   m_IsPrefabParent: 0
