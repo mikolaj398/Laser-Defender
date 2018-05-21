@@ -21,13 +21,54 @@ GameObject:
   - component: {fileID: 224767458601645392}
   - component: {fileID: 212859569500137616}
   - component: {fileID: 114600218433605114}
-  m_Layer: 0
+  - component: {fileID: 60491443096586942}
+  m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!60 &60491443096586942
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1604794869998500}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.99, y: 0.75}
+    newSize: {x: 0.99, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.49499997, y: 0.125}
+      - {x: 0.275, y: 0.105}
+      - {x: 0.125, y: 0.235}
+      - {x: 0.13499999, y: 0.375}
+      - {x: -0.105, y: 0.375}
+      - {x: -0.145, y: 0.125}
+      - {x: -0.265, y: 0.065}
+      - {x: -0.49499997, y: 0.095}
+      - {x: -0.49499997, y: -0.24499999}
+      - {x: -0.42499998, y: -0.285}
+      - {x: -0.145, y: -0.295}
+      - {x: -0.095, y: -0.375}
+      - {x: 0.105, y: -0.375}
+      - {x: 0.255, y: -0.285}
+      - {x: 0.45499998, y: -0.265}
+      - {x: 0.49499997, y: -0.255}
 --- !u!114 &114600218433605114
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -39,8 +80,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b867a9f169205e4b8f82b259d29350d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectile: {fileID: 1164725174970112, guid: 35ab08629b3f6aa47a2ccda771f0d2bf, type: 2}
   speed: 15
   padding: 1
+  projectileSpeed: 20
+  fireRate: 0.2
+  health: 250
+  playerFire: {fileID: 8300000, guid: 45d4576e9aaeef14d9fb50a2f4f1cba6, type: 3}
 --- !u!212 &212859569500137616
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -72,8 +118,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 638473599
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4a056e6fc8c16794e87738a0e9ef73a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
